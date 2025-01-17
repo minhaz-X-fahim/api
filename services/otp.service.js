@@ -29,7 +29,7 @@ async function sendOTP(params, callback) {
         var model = {
             email: params.email,
             subject: "Verification code",
-            body: `Dear Customer, Your OTP is ${otp}. It is valid for 5 minutes.\n\nDadah, don't share your otp with Teddy.`,
+            body: `Dear Customer, Your OTP is ${otp}. It is valid for 5 minutes.\n\nThis is a secure one time password,don't share with anyone.`,
         };
         
 

@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/api",require("./routes/app.routes"));
 
-app.listen(4200,function(){
+app.listen(3600,function(){
     console.log("Server started")
 }
 )
